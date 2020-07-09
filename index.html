@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/eeb0b73c32.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Kimmy Kaminski</title>
 </head>
 <body>
     <header>
 
+<!-- Navbar -->
+
+        <section class="hero-image img-fluid">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar bg-light">
-                        <div>
-                            <ul class="nav list-inline">
-                                <li class="nav-item active list-inline-item">
-                                    <a href="index.html" class="nav-link">Home</a>
+                    <nav class="navbar navbar-dark navbar-expand-sm">
+                        <a href="/" class="navbar-brand">K.K.</a>
+
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="active nav-item mr-2">
+                                    <a class="nav-link" href="#">Home</a>
                                 </li>
-                                <li class="nav-item list-inline-item">
-                                    <a href="#" class="nav-link">Tuition</a>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="#">Tuition</a>
                                 </li>
-                                <li class="nav-item list-inline-item">
-                                    <a href="#" class="nav-link">Gallery</a>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="#">Gallery</a>
                                 </li>
-                                <li class="nav-item list-inline-item">
-                                    <a href="#" class="nav-link">Contact</a>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,21 +43,112 @@
                 </div>
             </div>
         
-    </header>
+<!--Hero text-->
 
-        <section class="hero-outer">
-
+        <div class="hero-outer">
             <div class="row">
                 <div class="col">
-                    <div class="hero-image">
+                    <div class="hero-text">
                         <h1>Kimmy Kaminski</h1>
-                        <h5><span> Bass </span> <span class="vertical-line"> Guitar </span> <span class="vertical-line"> Piano </span> <span class="vertical-line">Music Theory</span></h5> 
+                        <h5><span> Music Tutor </span> <span class="vertical-line"> Session Musician </span></h5> 
                     </div>
                 </div>
             </div>
+        </div>
         </section>
+    </header>
 
-    <p>testings</p>
+<!--Heading-->
+
+    <section class="instrument-intro">
+        <div class="row">
+            <div class="col intro-heading">
+                <h1>A short paragraph describing the website</h1>
+            </div>
+        </div>
+
+<!--Instrument icons-->
+
+        <div class="row">
+            <div class="col-md-6 instrument-icon">
+                <div class="padding">
+                    <img src="images/bass.jpeg" alt="Bass Guitar" class="instrument-image img-fluid">
+                    <h2>Bass</h2>
+                    <p><i class="fas fa-graduation-cap"></i> Grades 1 to 8
+                        <br><a href="#">learn more</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 instrument-icon">
+                <div class="padding">
+                    <img src="images/guitar.jpeg" alt="Acoustic Guitar" class="instrument-image img-fluid">
+                    <h2>Guitar</h2>
+                    <p><i class="fas fa-graduation-cap"></i> Grades 1 to 5
+                        <br><a href="#">learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 instrument-icon">
+                <div class="padding">
+                    <img src="images/piano.jpeg" alt="Piano" class="instrument-image img-fluid">
+                    <h2>Piano</h2>
+                    <p><i class="fas fa-graduation-cap"></i> Grades 1 to 3
+                        <br><a href="#">learn more</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 instrument-icon">
+                <div class="padding">
+                    <img src="images/musictheory.jpeg" alt="Music Theory" class="instrument-image img-fluid">
+                    <h2>Music Theory</h2>
+                    <p><i class="fas fa-graduation-cap"></i> Grades 1 to 5
+                        <br><a href="#">learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Video-->
+
+
+<!--Footer-->
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 inline-block" id="contact">
+                <h5>Contact</h5>
+                <p class="inline-block">Tel: 07838784696 <br> Email: kimmykaminski01@gmail.com</p>
+            </div>
+            <div class="col-sm-6 inline-block" id="social">
+                <h5>Social Media</h5>
+                <ul class="list-inline social-media inline-block">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
