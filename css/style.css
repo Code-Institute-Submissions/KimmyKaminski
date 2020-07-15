@@ -1,19 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /*----------- Navbar -----------*/
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.25);
     width: 100vw;
-    position: absolute;
 } 
 
 .navbar-brand {
     font-family: "Oswald", sans-serif;
     font-size: 40px;
-    font-weight: 800;
-    color: red;
 }
 
 .nav-link {
@@ -21,11 +24,6 @@
     font-family: "Oswald", sans-serif;
     font-size: 34px;
 } 
-
-body {
-    margin: 0;
-    padding: 0;
-}
 
 /*----------- Hero image/text -----------*/
 
@@ -176,5 +174,13 @@ footer p {
 
 .social-media li a i:hover {
     background: navy;
+}
+
+/*----------- Contact page -----------*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
