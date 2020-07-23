@@ -7,6 +7,73 @@ body {
     padding: 0;
 }
 
+/*----------- Font sizes -----------*/
+
+h1 {
+    font-size: 65px;
+    font-family: "Oswald", sans-serif;
+    color: #fafafa;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+h2 {
+    font-size: 58px;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 38px;
+  }
+}
+
+h3 {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 28px;
+  }
+}
+
+h4 {
+    font-size: 36px;
+}
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
+h5 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 18px;
+  }
+}
+
 /*----------- Navbar -----------*/
 
 #navbar-transparent {
@@ -17,6 +84,7 @@ body {
 .navbar {
     background-color: rgba(17, 17, 18, 1);
     width: 100vw;
+    position: relative;
 }
 
 .navbar-dark .navbar-brand {
@@ -67,20 +135,22 @@ body {
 
 .hero-text h1 {
     text-align: center;
-    font-size: 500%;
+    /*font-size: 65px;*/
     padding-top: 0px;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
-    position: relative;
+    /*position: relative;*/
     font-weight: 200;
+    left: 0;
+    right: 0;
 }
 
 .hero-text h5 {
     text-align: center;
-    font-size: 150%;
+    /*font-size: 30px;*/
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
-    position: relative;
+    /*position: relative;*/
     font-weight: 200;
 }
 
@@ -104,17 +174,25 @@ body {
     justify-content: center;
 }
 
-.intro-heading {
+.page-heading {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #fafafa;
+    /*font-size: 65px;*/
+    padding-top: 25px;
+}
+
+.bio {
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.intro-heading p {
+.bio p {
     color: #fafafa;
-    font-family: "Oswald", sans-serif;
-    font-size: 28px;
-    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    /*font-size: 28px;*/
+    /*letter-spacing: 1px;*/
     font-weight: 100;
     padding-top: 50px;
     padding-left: 20px;
@@ -139,7 +217,7 @@ body {
     text-align: center;
     color: #fafafa;
     font-family: "Oswald", sans-serif;
-    font-size: 48px;
+    /*font-size: 48px;*/
     font-weight: 300;
     padding-top: 50px;
 }
@@ -148,7 +226,7 @@ body {
     text-align: center;
     color: #fafafa;
     font-family: "Lato", sans-serif;
-    font-size: 24px;
+    /*font-size: 28px;*/
     font-weight: 200;
 }
 
@@ -158,10 +236,12 @@ body {
 
 /*----------- Tuition -----------*/
 
-#bass-section {
-    background-color: red;
+.tuition-page h1 {
+    background-color:  #001840;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
 }
-
 
 /*.tuition-info {
     padding-top: 100px;
@@ -181,34 +261,58 @@ body {
 }
 
 .tuition-text {
-    padding-top: 100px;
+    /*padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 30px;
-    padding-right: 100px;
-    text-align: left;
+    padding-right: 100px;*/
+    text-align: center;
 }
 
 .tuition-text h3 {
     color: #fafafa;
     font-family: "Oswald", sans-serif;
-    font-size: 48px;
+    /*font-size: 48px;*/
     font-weight: 300;
 }
 
 .tuition-text p {
     color: #fafafa;
     font-family: "Lato", sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
+    /*font-size: 20px;*/
+    /*letter-spacing: 1px;*/
     font-weight: 200;
 }
 
 /*----------- Gallery -----------*/
 
-.imglist p {
-    margin-top: 15px;
-    margin-bottom: 1rem;
-    padding-left: 15px;
+.gallery-page {
+    background-color:  #001840;
+}
+
+.gallery-image {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+/*----------- Videos -----------*/
+
+/*--------- https://css-tricks.com/fluid-width-video/ --------*/
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-top: 50px;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
 }
 
 /*----------- Footer -----------*/
@@ -258,7 +362,7 @@ footer p {
     max-width: 70%;
 }
 .title {
-  font-size: 4rem;
+  /*font-size: 4rem;*/
 }
 
 .submit-button {
