@@ -93,6 +93,12 @@ p {
     font-size: 300%;
 }
 
+@media screen and (max-width: 600px) {
+  .navbar-dark .navbar-brand {
+    font-size: 24px;
+  }
+}
+
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     font-weight: 500;
 }
@@ -136,7 +142,8 @@ p {
 .hero-text h1 {
     text-align: center;
     /*font-size: 65px;*/
-    padding-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 0;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
     /*position: relative;*/
@@ -145,13 +152,14 @@ p {
     right: 0;
 }
 
-.hero-text h5 {
+.hero-text p {
     text-align: center;
     /*font-size: 30px;*/
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
     /*position: relative;*/
     font-weight: 200;
+    padding: 0;
 }
 
 .vertical-line {
@@ -159,9 +167,10 @@ p {
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         margin: 0;
         height: auto;
+        padding-left: 4px;
 }
 
-.hero-image h5 span {
+.hero-image p span {
     padding: 10px 10px;
 }
 
@@ -194,7 +203,7 @@ p {
     /*font-size: 28px;*/
     /*letter-spacing: 1px;*/
     font-weight: 100;
-    padding-top: 50px;
+    padding-top: 0;
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
@@ -234,6 +243,10 @@ p {
     display: inline-block;
 }
 
+.grades {
+    margin: 0;
+}
+
 /*----------- Tuition -----------*/
 
 .tuition-page h1 {
@@ -255,17 +268,21 @@ p {
     margin-right: 15px;*/
 }
 
+@media screen and (max-width: 600px) {
+  .tuition-section {
+    height: auto;
+    text-align: center;
+  }
+}
+
 #tuition-image {
     /*height: 600px;*/
     width: 100%
 }
 
 .tuition-text {
-    /*padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 100px;*/
-    text-align: center;
+    padding-top: 15px;
+    
 }
 
 .tuition-text h3 {
@@ -273,6 +290,8 @@ p {
     font-family: "Oswald", sans-serif;
     /*font-size: 48px;*/
     font-weight: 300;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .tuition-text p {
@@ -297,6 +316,10 @@ p {
     padding-top: 25px;
 }
 
+.gallery-margin {
+    margin-left: 50px;
+}
+
 /*----------- Videos -----------*/
 
 /*--------- https://css-tricks.com/fluid-width-video/ --------*/
@@ -306,6 +329,7 @@ p {
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   margin-top: 50px;
+  margin-left: 15%;
 }
 .video iframe {
   position: absolute;
@@ -313,6 +337,41 @@ p {
   left: 0;
   width: 80%;
   height: 80%;
+}
+
+/*----------- Contact page -----------*/
+
+.contact-page {
+    background-color: #001840;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.title {
+  /*font-size: 4rem;*/
+}
+
+.submit-button {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-heading {
+    padding-top: 50px;
+}
+
+.contact-heading h1, h3, p {
+    font-family: "Oswald", sans-serif;
+    color: #fafafa;
+}
+
+.form-group {
+    width: 70%;
+    margin: 0 auto;
 }
 
 /*----------- Footer -----------*/
@@ -348,32 +407,4 @@ footer p {
 
 .social-media li a i:hover {
     background: #b82e04;
-}
-
-/*----------- Contact page -----------*/
-
-.contact-page {
-    background-color: #001840;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-.title {
-  /*font-size: 4rem;*/
-}
-
-.submit-button {
-    text-align: center;
-}
-
-.contact-heading {
-    padding-top: 50px;
-}
-
-.contact-heading h1, h3, p {
-    font-family: "Oswald", sans-serif;
-    color: #fafafa;
 }
