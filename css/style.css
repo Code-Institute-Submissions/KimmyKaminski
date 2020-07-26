@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
@@ -281,8 +280,7 @@ p {
 }
 
 .tuition-text {
-    padding-top: 15px;
-    
+    padding-top: 15px;   
 }
 
 .tuition-text h3 {
@@ -308,16 +306,22 @@ p {
     background-color:  #001840;
 }
 
-.gallery-image {
+.gallery-container {
     height: 200px;
     width: 200px;
     display: inline-block;
     overflow: hidden;
     padding-top: 25px;
+    position: relative;
+}
+
+.gallery-image {
+    position: absolute;
 }
 
 .gallery-margin {
     margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 /*----------- Videos -----------*/
