@@ -251,17 +251,26 @@ p {
     height: 100vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .tuition-section {
     height: auto;
     text-align: center;
   }
 }
 
-#tuition-image {
+.tuition-image {
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
+
+/*@media screen and (max-width: 768px) {
+  .tuition-image {
+    height: 50vh;
+    width: auto;
+    text-align: center;
+  }
+}*/
 
 .tuition-text {
     padding-top: 15px;   
@@ -301,8 +310,9 @@ p {
 }
 
 .gallery-margin {
-    margin-left: 50px;
+    margin-left: 25px;
     margin-bottom: 50px;
+    margin-right: 25px;
 }
 
 /*----------- Videos -----------*/
@@ -364,6 +374,8 @@ footer {
     min-height: 120px;
     text-align: left;
     padding: 20px 50px;
+    position: relative;
+    z-index: 100;
 }
 
 footer h5 {
