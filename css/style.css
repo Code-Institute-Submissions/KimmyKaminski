@@ -140,24 +140,20 @@ p {
 
 .hero-text h1 {
     text-align: center;
-    /*font-size: 65px;*/
     padding-top: 25px;
     padding-bottom: 0;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
-    /*position: relative;*/
-    font-weight: 200;
+    font-weight: 300;
     left: 0;
     right: 0;
 }
 
 .hero-text p {
     text-align: center;
-    /*font-size: 30px;*/
     color: rgba(255, 255, 255, 0.5);
     font-family: "Lato", sans-serif;
-    /*position: relative;*/
-    font-weight: 200;
+    font-weight: 300;
     padding: 0;
 }
 
@@ -186,7 +182,6 @@ p {
     text-align: center;
     font-family: "Oswald", sans-serif;
     color: #fafafa;
-    /*font-size: 65px;*/
     padding-top: 25px;
 }
 
@@ -199,8 +194,6 @@ p {
 .bio p {
     color: #fafafa;
     font-family: "Lato", sans-serif;
-    /*font-size: 28px;*/
-    /*letter-spacing: 1px;*/
     font-weight: 100;
     padding-top: 0;
     padding-left: 20px;
@@ -225,7 +218,6 @@ p {
     text-align: center;
     color: #fafafa;
     font-family: "Oswald", sans-serif;
-    /*font-size: 48px;*/
     font-weight: 300;
     padding-top: 50px;
 }
@@ -234,7 +226,6 @@ p {
     text-align: center;
     color: #fafafa;
     font-family: "Lato", sans-serif;
-    /*font-size: 28px;*/
     font-weight: 200;
 }
 
@@ -255,16 +246,9 @@ p {
     text-align: center;
 }
 
-/*.tuition-info {
-    padding-top: 100px;
-    background-color: black
-}*/
-
 .tuition-section {
     background-color:  #001840;
     height: 100vh;
-    /*margin-left: 15px;
-    margin-right: 15px;*/
 }
 
 @media screen and (max-width: 600px) {
@@ -275,8 +259,8 @@ p {
 }
 
 #tuition-image {
-    /*height: 600px;*/
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 .tuition-text {
@@ -286,7 +270,6 @@ p {
 .tuition-text h3 {
     color: #fafafa;
     font-family: "Oswald", sans-serif;
-    /*font-size: 48px;*/
     font-weight: 300;
     text-align: center;
     padding-bottom: 15px;
@@ -295,8 +278,6 @@ p {
 .tuition-text p {
     color: #fafafa;
     font-family: "Lato", sans-serif;
-    /*font-size: 20px;*/
-    /*letter-spacing: 1px;*/
     font-weight: 200;
 }
 
@@ -353,9 +334,6 @@ p {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
-}
-.title {
-  /*font-size: 4rem;*/
 }
 
 .submit-button {
