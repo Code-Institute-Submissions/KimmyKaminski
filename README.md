@@ -159,6 +159,17 @@ The HTML code was validated using W3C HTML Validator and the following errors we
 
 The CSS was validated using W3C CSS Validator and no errors were found.
 
+The site has been tested on the following browsers and devices:-
+1.  Google Chrome
+2.  Mozilla Firefox
+3.  Safari
+4.  Apple MacBook Air 
+5.  Toshiba Windows laptop
+6.  Apple iPad
+7.  Huawei Mate 20 pro 
+8.  Samsumg Galaxy S7 
+9.  Apple iPhone
+
 ### Responsive design:
 
 [Home]:
