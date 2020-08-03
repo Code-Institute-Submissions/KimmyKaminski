@@ -54,7 +54,7 @@ User stories:
 - As someone who is interested is hiring a musician for a show or gig, there are videos and links to social media where Kimmy's playing is showcased, and contact information in the footer and on the contact page.
 - As someone who wants to enquire about music lessons, there is contact informtation at the footer of each page, and a contact page with a form that can be submitted with a lesson enquiry.
 
-Wireframes: 
+Wireframes: https://balsamiq.cloud/sat8ofp/p3oco45 
 
 ## Features
 
@@ -72,7 +72,7 @@ In this section, you should go over the different parts of your project, and des
 - Contact form - allows users to easily get in touch with Kimmy to enquire about lessons and provides a dropdown menu to select the type of enquiry. The form is user friendly and will not permit submission without all information present.
 
 ### Features Left to Implement
-- Make the form inputs clear once the form is submitted.
+- Make the form inputs clear once the form is submitted. I tried to research how to do this, and think it involves JQuery which I am not familiar with yet, so this is something I can come back and change later in the course.
 - Contact form - the current contact form does not function, in that it does not send an email to Kimmy with the user enquiry. This feature will be implemented once I have progressed to that stage of the course.
 - Online lesson booking system.
 
@@ -197,6 +197,8 @@ I couldn't work out how to fix this bug using positioning, so I moved the text d
 configuration.
 
 -   The final image on the tuition page was overlapping on the footer. To fix this I changed the z-index of the footer so it was displayed on top of the image.
+
+-   On the Tuition page, the main body of the section element is wider than the other elements. I tried styling the divs within the section, the margin and padding, but I was not able to fix this bug.
 
 ## Deployment
 
