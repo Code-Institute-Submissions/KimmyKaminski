@@ -1,44 +1,3 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
-
-Welcome lindsaymcleod25,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
-
-
 # Kimmy Kaminski 
 
 Kimmy is an excellent musician with over 10 years experience. She has played in various bands over her career and is now offering music tuition in Bass, Guitar, Piano and Music Theory. She can provide friendly, tailored lessons to people of all ages and abilities at competitive prices. She posts videos on social media showcasing her talent and can provide virtual lessons where required.
@@ -54,7 +13,7 @@ User stories:
 - As someone who is interested is hiring a musician for a show or gig, there are videos and links to social media where Kimmy's playing is showcased, and contact information in the footer and on the contact page.
 - As someone who wants to enquire about music lessons, there is contact informtation at the footer of each page, and a contact page with a form that can be submitted with a lesson enquiry.
 
-Wireframes: https://balsamiq.cloud/sat8ofp/p3oco45 
+Wireframes: wireframes/kkwireframes.pdf 
 
 ## Features
 
@@ -85,7 +44,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [CSS]
     - The project uses **CSS** for the styling.
 
- - [Google Fonts] (https://fonts.google.com/)   
+ - [GoogleFonts] (https://fonts.google.com/)   
     - The project uses **Google Fonts** for the text font, weight and sizing.
 
 - [Bootstrap](https://getbootstrap.com/)
@@ -172,24 +131,24 @@ The site has been tested on the following browsers and devices:-
 
 ### Responsive design:
 
-[Home]:
--   On large and medium screens the navbar links are displayed along the top left hand side of the screen. The music lesson icons are then displayed two per row.
-On small screens, the navbar links collapse into a hamburger icon, with the brand link still viable on the left hand side, providing easy access back to the home page.
-The music lesson icons are then displayed stacked one on top of the other. 
+# Home:
+    -   On large and medium screens the navbar links are displayed along the top left hand side of the screen. The music lesson icons are then displayed two per row.
+    On small screens, the navbar links collapse into a hamburger icon, with the brand link still viable on the left hand side, providing easy access back to the home page.
+    The music lesson icons are then displayed stacked one on top of the other. 
 
-[Footer]:
--   On large ad medium screens the contact info and social links are displayed in line, but on small screens the social links are displayed below the contact details.
+# Footer:
+    -   On large ad medium screens the contact info and social links are displayed in line, but on small screens the social links are displayed below the contact details.
 
-[Tuition]:
--   On large and medium screens, the tuition sections are displayed with the image to the left and the text to the right, and on small screens they are displayed with the image above the text.
+# Tuition:
+    -   On large and medium screens, the tuition sections are displayed with the image to the left and the text to the right, and on small screens they are displayed with the image above the text.
 
-[Gallery]:
--   On large screens the gallery is displayed with four images in a row and on small screens, the images are displayed stacked on top of eachother. On all screen sizes, the videos are displayed one per row.
+# Gallery:
+    -   On large screens the gallery is displayed with four images in a row and on small screens, the images are displayed stacked on top of eachother. On all screen sizes, the videos are displayed one per row.
 
-[Contact]:
--   The contact form is styled to width 70%, so it's size is responsive.
+# Contact:
+    -   The contact form is styled to width 70%, so it's size is responsive.
 
-[Bugs:]
+# Bugs:
 -   The hero text was originally positioned on top of the hero image, however in mobile view, the text moved down the page when the hamburger menu was expanded. 
 I couldn't work out how to fix this bug using positioning, so I moved the text down to below the hero image to remove this issue all together.
 

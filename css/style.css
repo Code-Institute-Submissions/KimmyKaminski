@@ -6,61 +6,35 @@ body {
     padding: 0;
 }
 
+.row {
+    margin: 0;
+}
 /*----------- Font sizes -----------*/
 
 h1 {
     font-size: 65px;
     font-family: "Oswald", sans-serif;
     color: #fafafa;
-    margin: 0;
-    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 45px;
-  }
 }
 
 h2 {
     font-size: 58px;
 }
 
-@media screen and (max-width: 600px) {
-  h2 {
-    font-size: 38px;
-  }
-}
-
 h3 {
     font-size: 48px;
-}
-
-@media screen and (max-width: 600px) {
-  h3 {
-    font-size: 28px;
-  }
 }
 
 h4 {
     font-size: 36px;
 }
 
-@media screen and (max-width: 600px) {
-  h4 {
-    font-size: 26px;
-  }
-}
-
 h5 {
     font-size: 30px;
-}
-
-@media screen and (max-width: 600px) {
-  h4 {
-    font-size: 20px;
-  }
 }
 
 p {
@@ -68,7 +42,22 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  p {
+    h1 {
+    font-size: 45px;
+  }
+    h2 {
+    font-size: 38px;
+  }
+    h3 {
+    font-size: 28px;
+  }
+    h4 {
+    font-size: 26px;
+  }
+    h5 {
+    font-size: 20px;
+  }
+    p {
     font-size: 18px;
   }
 }
@@ -152,16 +141,16 @@ p {
 .hero-text p {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
     padding: 0;
 }
 
 .vertical-line {
-        border-left: 1px solid rgba(255, 255, 255, 0.5);
-        margin: 0;
-        height: auto;
-        padding-left: 4px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0;
+    height: auto;
+    padding-left: 4px;
 }
 
 .hero-image p span {
@@ -195,10 +184,17 @@ p {
     font-family: "Lato", sans-serif;
     font-weight: 100;
     padding-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
     position: relative;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .bio p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .instrument-icon {
@@ -239,15 +235,11 @@ p {
 /*----------- Tuition -----------*/
 
 .tuition-page h1 {
-    background-color:  #001840;
-    margin: 0;
-    padding: 25px;
-    text-align: center;
+    padding-top: 25px;
 }
 
-.tuition-section {
+.tuition-page {
     background-color:  #001840;
-    height: 100vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -264,7 +256,16 @@ p {
 }
 
 .tuition-text {
-    padding-top: 15px;   
+    padding-top: 15px; 
+    padding-left: 50px;
+    padding-right: 50px;  
+}
+
+@media screen and (max-width: 768px) {
+  .tuition-text {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .tuition-text h3 {
@@ -287,9 +288,12 @@ p {
     background-color:  #001840;
 }
 
+.gallery-page h1 {
+    padding-top: 25px;
+}
+
 .gallery-container {
-    height: 200px;
-    width: 200px;
+    height: 300px;
     display: inline-block;
     overflow: hidden;
     padding-top: 25px;
@@ -297,7 +301,7 @@ p {
 }
 
 .gallery-image {
-    position: absolute;
+    width: 100%;
 }
 
 .gallery-margin {
@@ -305,6 +309,7 @@ p {
     margin-bottom: 50px;
     margin-right: 25px;
 }
+
 
 /*----------- Videos -----------*/
 
@@ -326,6 +331,18 @@ p {
   border: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .video {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video iframe {
+    width: 100%;
+  }
+}
+
 /*----------- Contact page -----------*/
 
 .contact-page {
@@ -333,9 +350,8 @@ p {
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
     max-width: 70%;
+    margin: 0 auto;
 }
 
 .submit-button {
@@ -354,10 +370,13 @@ p {
 }
 
 .form-group {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
+.send {
+    margin-bottom: 0;
+}
 /*----------- Footer -----------*/
 
 footer {
